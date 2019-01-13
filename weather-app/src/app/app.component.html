@@ -1,0 +1,25 @@
+<div class="mat-typography ap-root">
+  <mat-toolbar>
+    <mat-toolbar-row>
+        <button class="menuButton" (click)="sidenav.toggle()">
+          <i class="fa fa-bars fa-lg" aria-hidden="true"></i> Menu
+        </button>
+      <h2 class="ap-title">Weather App</h2>
+      <span class="ap-spacer"></span>
+      <span class="ap-subtitle">Hi User</span>
+      
+    </mat-toolbar-row>
+  </mat-toolbar>
+  <mat-sidenav-container>
+    <mat-sidenav #sidenav mode="push">
+      <div>
+        <div>
+          
+        </div>
+      </div>
+    </mat-sidenav>
+    <mat-sidenav-content>Main
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+</div>
+
